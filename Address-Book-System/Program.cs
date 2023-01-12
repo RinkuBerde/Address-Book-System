@@ -7,17 +7,23 @@
             Console.WriteLine("Welcome to Address Book  System");
 
               //Create contact
-              CreateContact.PersonDetails();
-              Console.ReadLine();
+               CreateContact.PersonDetails();
+               Console.ReadLine();
 
-             //add a new contact
-              AddContact.GetCustomer();
-              AddContact.ListingPeople();
+              //add a new contact
+               AddContact.GetCustomer();
+               AddContact.ListingPeople();
 
-            // Modify existing contact
-             EditContact.GetCustomer();
-             EditContact.Modify();
-             EditContact.ListingPeople(); 
+             // Modify existing contact
+              EditContact.GetCustomer();
+              EditContact.Modify();
+              EditContact.ListingPeople();
+
+            //delete a person          
+            DeleteContact.GetCustomer();
+            DeleteContact.Modify();
+            DeleteContact.ListingPeople();
+            DeleteContact.RemovePeople();
 
         }
     }
