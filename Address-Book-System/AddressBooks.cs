@@ -214,6 +214,7 @@ namespace Address_Book_System
                 PrintCustomer(person);
             }
             return;
+
         }
         //Removing the field using Lambda Function
         public void RemovePeople()
@@ -232,6 +233,7 @@ namespace Address_Book_System
             {
                 people.Remove(person);
                 Console.WriteLine("\nPerson removed ");
+
             }
         }
         //Display Person names found in given City
