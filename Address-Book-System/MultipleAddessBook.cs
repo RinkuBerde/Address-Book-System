@@ -6,8 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Address_Book_System
-{
-   
+{ 
         public class AddressBookSystem
         {
             //instance variables 
@@ -48,7 +47,7 @@ namespace Address_Book_System
                 ContactArray[this.contact] = new AddressBookSystem(firstName, lastName, Address, city, state, zip, phoneNumber, email);
                 contact++;
                 AddBooks obj = new AddBooks();
-                obj.Display(ContactArray, contact);
+                //obj.Display(ContactArray, contact);
             }
             //Function call To modify
             public void Modify()
@@ -117,10 +116,6 @@ namespace Address_Book_System
                         Console.WriteLine("Invalid Option");
                         break;
                 }
-                //Display Function
-                AddBooks obj = new AddBooks();
-                obj.Display(ContactArray, contact);
-
             }
         }   
 }
