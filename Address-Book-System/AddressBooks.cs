@@ -119,6 +119,7 @@ namespace Address_Book_System
                 {
                     Console.WriteLine("This person already exists in your AddressBook!");
                 }
+
             }
         }
         //Print the details
@@ -189,13 +190,17 @@ namespace Address_Book_System
                                     break;
                                 case 8:
                                     return;
+
                             }
+
                         }
+
                     }
                     else
                     {
                         Console.WriteLine("Enter the valid name!");
                     }
+
                 }
             }
         }
@@ -267,6 +272,8 @@ namespace Address_Book_System
                     {
                         Console.WriteLine("Found person \"{0} {1}\" , residing in City {2}", j.firstName, j.lastName, j.city);
                     }
+
+
                 }
             }
             else
@@ -282,6 +289,11 @@ namespace Address_Book_System
                 }
             }
 
+        }
+
+        internal static void SortContactPerson(Dictionary<string, List<AddrBook>> addressBook)
+        {
+            Console.WriteLine("sortded order");
         }
     }
 }
