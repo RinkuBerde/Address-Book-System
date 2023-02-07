@@ -1,12 +1,3 @@
 firstName,lastName,Address,city,state,zip,phoneNumber,email
-Rinku,Berde,Hanuman Nagar,Mumbai,Maharshtra,400101,1234567890,rinku@gmail.com
-
-firstName,lastName,Address,city,state,zip,phoneNumber,email
-Yukta,Mane,Nathibai Road,pune,Maharashtra,675449,9812345678,yukta@gmail.com
-
-firstName,lastName,Address,city,state,zip,phoneNumber,email
-Swayam,Sharma,"Peddar Road ",Delhi,Delhi,768549,9876543213,swayam@gmail.com
-
-firstName,lastName,Address,city,state,zip,phoneNumber,email
-Rahul,Jadhav,Naoroji Road,Mumbai,Maharashtra,786543,9876546789,rahul@gmail.com
+Rinku,Berde,Hanuman Nagar,Mumbai,Maharashtra,400101,1234567890,rinku@gmail.com
 
